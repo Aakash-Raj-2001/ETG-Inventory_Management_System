@@ -11,6 +11,7 @@ I have created an Inventory Management System to manage the goods for a small sc
 
 # Functionalities and working:
 This project is actually divided into 2 parts:
+
 **1.Add_NEW_Product**:In this part, We create a record.json file which contains all the Inventories with details like product id(barcode),name,quantity,price,,Expiry date, brand. Here we can add new goods in the inventory and the records will be stored in record.json file.
 
 **2.Product Purchase**:In this part, a)We enter the transaction or purchase details like product id,no. of items purchased,name of customer, mobile number of customer. b)If the purchased items are available in inventory, then Bill is generated c)The detailes of the transactions are then stored in sales.json file with attributes like total transactions,transactio id,date,time, product name,total amount of purchase, customer name and customer mobile number.
